@@ -1,0 +1,1 @@
+import {BrowserRouter,Routes,Route} from 'react-router-dom';import {PortfolioPage} from './pages/PortfolioPage';import {ProjectCaseStudy} from './pages/ProjectCaseStudy';export default function App(){return <BrowserRouter><Routes><Route path="/" element={<PortfolioPage/>}/><Route path="/projects/:slug" element={<ProjectCaseStudy/>}/></Routes></BrowserRouter>}
