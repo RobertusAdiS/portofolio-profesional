@@ -19,7 +19,7 @@ export function ProjectCaseStudy(){
   if(!p) return <>
     <Navbar/>
     <main className="min-h-screen pt-40 px-5 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-semibold">Project tidak ditemukan</h1>
+      <h1 className="text-4xl font-semibold">Course tidak ditemukan</h1>
       <Link className="text-accent inline-block mt-5" to="/">Kembali ke portofolio</Link>
     </main>
     <Footer/>
@@ -29,28 +29,40 @@ export function ProjectCaseStudy(){
     <Navbar/>
     <main className="pt-36 pb-20">
       <div className="max-w-4xl mx-auto px-5">
-        <Link to="/#projects" className="inline-flex items-center gap-2 text-sm text-muted">
-          <ArrowLeft size={16}/> Kembali ke projects
+        <Link to="/#courses" className="inline-flex items-center gap-2 text-sm text-muted">
+          <ArrowLeft size={16}/> Kembali ke courses
         </Link>
 
         <div className="mt-8">
           <span className="tag">{p.category}</span>
           <h1 className="mt-5 text-4xl md:text-6xl font-semibold tracking-tight text-ink">{p.title}</h1>
-          <p className="mt-5 text-xl leading-8 text-muted">{p.description}</p>
+          {!p.hideOverview && p.description && (
+            <p className="mt-5 text-xl leading-8 text-muted">{p.description}</p>
+          )}
         </div>
 
         <div className="mt-12 grid gap-10">
-          <Block title="Project overview"><p>{p.description}</p></Block>
-          <Block title="Context"><p>{p.context}</p></Block>
-          <Block title="Approach">
-            <ul>{p.approach.map(x=><li key={x} className="flex gap-3 mt-3"><CheckCircle2 size={18} className="text-accent shrink-0"/>{x}</li>)}</ul>
-          </Block>
-          <Block title="Learning outcome">
-            <ul>{p.outcomes.map(x=><li key={x} className="flex gap-3 mt-3"><CheckCircle2 size={18} className="text-accent shrink-0"/>{x}</li>)}</ul>
-          </Block>
-          <Block title="Competencies demonstrated">
-            <div className="flex flex-wrap gap-2">{p.skills.map(x=><span className="tag" key={x}>{x}</span>)}</div>
-          </Block>
+          {!p.hideOverview && p.description && (
+            <Block title="Course overview"><p>{p.description}</p></Block>
+          )}
+          {p.context && p.context.trim() !== '' && (
+            <Block title="Context"><p>{p.context}</p></Block>
+          )}
+          {p.approach && p.approach.length > 0 && (
+            <Block title="Approach">
+              <ul>{p.approach.map(x=><li key={x} className="flex gap-3 mt-3"><CheckCircle2 size={18} className="text-accent shrink-0"/>{x}</li>)}</ul>
+            </Block>
+          )}
+          {p.outcomes && p.outcomes.length > 0 && (
+            <Block title="Learning outcome">
+              <ul>{p.outcomes.map(x=><li key={x} className="flex gap-3 mt-3"><CheckCircle2 size={18} className="text-accent shrink-0"/>{x}</li>)}</ul>
+            </Block>
+          )}
+          {p.skills && p.skills.length > 0 && (
+            <Block title="Competencies demonstrated">
+              <div className="flex flex-wrap gap-2">{p.skills.map(x=><span className="tag" key={x}>{x}</span>)}</div>
+            </Block>
+          )}
 
           {/* Reflection 4C Section */}
           {p.reflection4C && (
@@ -80,15 +92,15 @@ export function ProjectCaseStudy(){
             </Block>
           )}
 
-          <Block title="Evidence">
+          <Block title="Artifact">
             {p.evidenceUrl && p.evidenceUrl !== '#' ? (
               <a href={p.evidenceUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
-                <ExternalLink size={15}/> Lihat Evidence
+                <ExternalLink size={15}/> Lihat Artifact
               </a>
             ) : (
               <>
-                <p className="text-muted">Tautan evidence saat ini masih placeholder.</p>
-                <span className="mt-4 inline-flex items-center gap-2 text-sm text-muted"><ExternalLink size={15}/> Evidence belum tersedia</span>
+                <p className="text-muted">Tautan artifact saat ini masih placeholder.</p>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm text-muted"><ExternalLink size={15}/> Artifact belum tersedia</span>
               </>
             )}
           </Block>
