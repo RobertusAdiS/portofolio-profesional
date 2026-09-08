@@ -17,7 +17,7 @@ export const evidence: Evidence[] = [
     description: 'Dokumen profiling peserta didik dan rencana intervensi pembelajaran yang sesuai dengan karakteristik mereka.',
     type: 'document',
     url: 'https://drive.google.com/file/d/1IbQxnD_1gH7GKoh5mVoq0OS-XFC50J7p/view?usp=sharing',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s1-3',
@@ -26,7 +26,7 @@ export const evidence: Evidence[] = [
     description: 'Rancangan modul ajar beserta instrumen asesmen dasar sebagai bukti penerapan pembelajaran mendalam.',
     type: 'document',
     url: 'https://drive.google.com/file/d/1nGQHv8tsC6GR8mT76ADkYjv9pdVB43FP/view?usp=drive_link',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s1-4',
@@ -35,7 +35,7 @@ export const evidence: Evidence[] = [
     description: 'Video dokumentasi dan laporan observasi atau praktik mengajar terbimbing selama PPL di semester 1.',
     type: 'video',
     url: 'https://drive.google.com/file/d/1WI73zHVSLGx08oNIuXsiFaM9ujCnwFSu/view?usp=drive_link',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s1-5',
@@ -44,7 +44,7 @@ export const evidence: Evidence[] = [
     description: 'Jurnal refleksi diri mengenai perkembangan mindset dan cara merespons tantangan selama PPG.',
     type: 'document',
     url: 'https://drive.google.com/file/d/1FCb-g0jEvpuRNl15lQuy_axvCmw_cgE_/view?usp=drive_link',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s1-6',
@@ -53,7 +53,7 @@ export const evidence: Evidence[] = [
     description: 'Media pembelajaran interaktif atau inovasi strategi pembelajaran yang dirancang di kelas elektif ini.',
     type: 'document',
     url: 'https://drive.google.com/file/d/1QTO9sA5Snj-KA4TUnxnrAGEOAC4tQiSj/view?usp=drive_link',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s2-1',
@@ -71,7 +71,7 @@ export const evidence: Evidence[] = [
     description: 'Instrumen evaluasi HOTS dan analisis penilaian tingkat lanjut yang dilakukan terhadap hasil belajar.',
     type: 'document',
     url: 'https://drive.google.com/file/d/1iQCMSLKVAARBr9Q-ov-T8CflHQ0d1Pmr/view?usp=sharing',
-    status: 'placeholder'
+    status: 'available'
   },
   {
     id: 'ev-s2-3',
