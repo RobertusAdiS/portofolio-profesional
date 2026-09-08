@@ -70,7 +70,7 @@ export const evidence: Evidence[] = [
     category: 'Semester 2',
     description: 'Instrumen evaluasi HOTS dan analisis penilaian tingkat lanjut yang dilakukan terhadap hasil belajar.',
     type: 'document',
-    url: '#',
+    url: 'https://drive.google.com/file/d/1iQCMSLKVAARBr9Q-ov-T8CflHQ0d1Pmr/view?usp=sharing',
     status: 'placeholder'
   },
   {
