@@ -1,2 +1,45 @@
-import type { SkillGroup } from '../types';
-export const skillGroups:SkillGroup[]=[{title:'Pedagogi',items:['Pembelajaran Berdiferensiasi','Pemahaman Profil Peserta Didik','Understanding by Design (UbD)','Manajemen Kelas','Asesmen Otentik','Asesmen Berbasis HOTS']},{title:'Sosial Emosional',items:['Pembelajaran Sosial Emosional (PSE)','Pendampingan / Mentoring','Komunikasi Empatis','Kesadaran Diri (Self-Awareness)','Kesadaran Emosional','Praktik Reflektif']},{title:'Teknologi / TPACK',items:['Media Pembelajaran Digital','Google Workspace for Education','Portofolio Digital','Teknologi Pendidikan','Alat Pembelajaran Interaktif','Pembelajaran Terintegrasi Teknologi']},{title:'Pengembangan Profesional',items:['Evaluasi Diri','Pembelajaran Berkelanjutan','Praktik Berbasis Bukti','Refleksi Profesional']}];
+import type { SkillGroup } from "../types";
+export const skillGroups: SkillGroup[] = [
+  {
+    title: "Pedagogi",
+    items: [
+      "Pembelajaran Berdiferensiasi",
+      "Pemahaman Profil Peserta Didik",
+      "Understanding by Design (UbD)",
+      "Manajemen Kelas",
+      "Asesmen Otentik",
+      "Asesmen Berbasis HOTS",
+    ],
+  },
+  {
+    title: "Sosial Emosional",
+    items: [
+      "Pembelajaran Sosial Emosional (PSE)",
+      "Pendampingan / Mentoring",
+      "Komunikasi Empatis",
+      "Kesadaran Diri (Self-Awareness)",
+      "Kesadaran Emosional",
+      "Praktik Reflektif",
+    ],
+  },
+  {
+    title: "Teknologi / TPACK",
+    items: [
+      "Media Pembelajaran Digital",
+      "Google Workspace for Education",
+      "Portofolio Digital",
+      "Teknologi Pendidikan",
+      "Alat Pembelajaran Interaktif",
+      "Pembelajaran Terintegrasi Teknologi",
+    ],
+  },
+  {
+    title: "Pengembangan Profesional",
+    items: [
+      "Evaluasi Diri",
+      "Pembelajaran Berkelanjutan",
+      "Praktik Berbasis Bukti",
+      "Refleksi Profesional",
+    ],
+  },
+];

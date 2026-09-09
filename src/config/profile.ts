@@ -1,3 +1,22 @@
-export const profile={name:'Robertus Adi Setyawan',role:'Calon Guru Profesional',headline:'Calon Guru Profesional | Pendidik Reflektif, Inovatif, dan Berpusat pada Peserta Didik',bio:'Senantiasa berupaya memberikan yang terbaik dan melampaui batas kemampuan diri demi kemuliaan Tuhan yang lebih besar.',tagline:'Belajar, merefleksi, berinovasi, dan bertumbuh untuk menghadirkan pembelajaran yang bermakna.',email:'robertusadisetyawan@gmail.com',linkedin:'https://www.linkedin.com/in/robertus-adi-setyawan/',googleDrive:'#',github:'https://github.com/RobertusAdiS',photoUrl:''};
-export const navItems=[['Beranda','home'],['Tentang','about'],['Perjalanan','journey'],['Matkul','courses'],['Skills','skills'],['Artifak','artifacts']] as const;
-
+export const profile = {
+  name: "Robertus Adi Setyawan",
+  role: "Calon Guru Profesional",
+  headline:
+    "Calon Guru Profesional | Pendidik Reflektif, Inovatif, dan Berpusat pada Peserta Didik",
+  bio: "Senantiasa berupaya memberikan yang terbaik dan melampaui batas kemampuan diri demi kemuliaan Tuhan yang lebih besar.",
+  tagline:
+    "Belajar, merefleksi, berinovasi, dan bertumbuh untuk menghadirkan pembelajaran yang bermakna.",
+  email: "robertusadisetyawan@gmail.com",
+  linkedin: "https://www.linkedin.com/in/robertus-adi-setyawan/",
+  googleDrive: "#",
+  github: "https://github.com/RobertusAdiS",
+  photoUrl: "",
+};
+export const navItems = [
+  ["Beranda", "home"],
+  ["Tentang", "about"],
+  ["Perjalanan", "journey"],
+  ["Matkul", "courses"],
+  ["Skills", "skills"],
+  ["Artifak", "artifacts"],
+] as const;

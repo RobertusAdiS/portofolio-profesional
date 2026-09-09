@@ -1,2 +1,54 @@
-import {X,ExternalLink} from 'lucide-react';import type {Evidence} from '../../types';export function EvidenceModal({item,onClose}:{item:Evidence|null;onClose:()=>void}){if(!item)return null;return <div className="fixed inset-0 z-[70] bg-ink/50 p-4 grid place-items-center" role="dialog" aria-modal="true" aria-labelledby="evidence-title" onKeyDown={e=>e.key==='Escape'&&onClose()}><div className="bg-white max-w-lg w-full rounded-3xl p-6 shadow-soft" tabIndex={-1}><div className="flex justify-between"><h3 id="evidence-title" className="text-xl font-semibold">{item.title}</h3><button onClick={onClose} className="p-2 rounded-xl hover:bg-paper" aria-label="Tutup"><X size={18}/></button></div><p className="mt-4 text-muted">{item.description}</p>{item.status==='placeholder'?<div className="mt-5 rounded-2xl bg-paper p-4 text-sm text-muted">Tautan artifak belum tersedia. Tautan akan ditambahkan setelah dokumen final siap dipublikasikan.</div>:<a href={item.url} target="_blank" rel="noreferrer" className="btn-primary mt-5">Buka artifak <ExternalLink size={16}/></a>}</div></div>}
-
+import { X, ExternalLink } from "lucide-react";
+import type { Evidence } from "../../types";
+export function EvidenceModal({
+  item,
+  onClose,
+}: {
+  item: Evidence | null;
+  onClose: () => void;
+}) {
+  if (!item) return null;
+  return (
+    <div
+      className="fixed inset-0 z-[70] bg-ink/50 p-4 grid place-items-center"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="evidence-title"
+      onKeyDown={(e) => e.key === "Escape" && onClose()}
+    >
+      <div
+        className="w-full max-w-lg p-6 bg-white rounded-3xl shadow-soft"
+        tabIndex={-1}
+      >
+        <div className="flex justify-between">
+          <h3 id="evidence-title" className="text-xl font-semibold">
+            {item.title}
+          </h3>
+          <button
+            onClick={onClose}
+            className="p-2 rounded-xl hover:bg-paper"
+            aria-label="Tutup"
+          >
+            <X size={18} />
+          </button>
+        </div>
+        <p className="mt-4 text-muted">{item.description}</p>
+        {item.status === "placeholder" ? (
+          <div className="p-4 mt-5 text-sm rounded-2xl bg-paper text-muted">
+            Tautan artifak belum tersedia. Tautan akan ditambahkan setelah
+            dokumen final siap dipublikasikan.
+          </div>
+        ) : (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-5 btn-primary"
+          >
+            Buka artifak <ExternalLink size={16} />
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}

@@ -1,1 +1,23 @@
-export function SectionHeading({eyebrow,title,description}:{eyebrow:string;title:string;description?:string}){return <div className="max-w-3xl mb-10"><p className="text-sm font-semibold uppercase tracking-[.18em] text-accent">{eyebrow}</p><h2 className="mt-3 text-3xl md:text-5xl font-semibold tracking-tight text-ink">{title}</h2>{description&&<p className="mt-4 text-lg leading-8 text-muted">{description}</p>}</div>}
+export function SectionHeading({
+  eyebrow,
+  title,
+  description,
+}: {
+  eyebrow: string;
+  title: string;
+  description?: string;
+}) {
+  return (
+    <div className="max-w-3xl mb-10">
+      <p className="text-sm font-semibold uppercase tracking-[.18em] text-accent">
+        {eyebrow}
+      </p>
+      <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-5xl text-ink">
+        {title}
+      </h2>
+      {description && (
+        <p className="mt-4 text-lg leading-8 text-muted">{description}</p>
+      )}
+    </div>
+  );
+}

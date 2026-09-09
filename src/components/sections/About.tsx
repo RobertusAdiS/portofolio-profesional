@@ -1,3 +1,74 @@
-import {RefreshCw,HeartHandshake,GraduationCap,ArrowUpRight} from 'lucide-react';import {Reveal} from '../ui/Reveal';import {SectionHeading} from '../ui/SectionHeading';
-const pillars=[{icon:GraduationCap,title:'Siapa Saya',copy:'Mahasiswa PPG calon guru yang sedang mengembangkan kompetensi pedagogik, sosial-emosional, digital, dan profesional melalui proses akademik serta praktik lapangan.'},{icon:HeartHandshake,title:'Prinsip Saya',copy:'Pembelajaran perlu berpusat pada peserta didik, responsif terhadap keragaman, bermakna, dan terus diperbaiki melalui refleksi.'},{icon:RefreshCw,title:'Cara Saya Belajar',copy:'Proses belajar bergerak sebagai siklus: memahami konsep, mencoba dalam praktik, membaca kembali pengalaman, lalu memperbaiki tindakan.'}];
-export function About(){return <section id="about" className="section"><div className="relative max-w-6xl mx-auto px-5"><SectionHeading eyebrow="01 · Tentang" title="Identitas profesional dibangun dari proses." description="Bukan sekadar kumpulan tugas. Portofolio ini memetakan cara belajar, praktik, refleksi, dan artefak yang membentuk perjalanan menuju profesi guru."/><div className="grid lg:grid-cols-[.8fr_1.2fr] gap-8 items-stretch"><Reveal><div className="h-full rounded-[2rem] bg-ink p-7 sm:p-9 text-white shadow-premium relative overflow-hidden"><div className="absolute right-[-30%] top-[-15%] h-72 w-72 rounded-full bg-accent blur-3xl opacity-30"/><p className="relative text-xs font-bold uppercase tracking-[.18em] text-emerald-200">Pernyataan Profesional</p><blockquote className="relative mt-8 text-2xl sm:text-3xl font-semibold leading-tight tracking-tight">“Terus belajar untuk bertumbuh, dan terus bertumbuh untuk menjadi pribadi yang bermanfaat bagi sesama.”</blockquote><div className="relative mt-10 pt-6 border-t border-white/10 flex items-center justify-between"><span className="text-sm text-white/55">PPG · Calon Guru</span><ArrowUpRight size={18} className="text-emerald-200"/></div></div></Reveal><div className="grid md:grid-cols-3 gap-4">{pillars.map(({icon:Icon,title,copy},i)=><Reveal key={title} delay={i*.06}><article className="card h-full"><div className="flex items-center justify-between"><span className="grid h-11 w-11 place-items-center rounded-2xl bg-emerald-50 text-accent"><Icon size={20}/></span><span className="text-[10px] font-bold tracking-[.16em] text-slate-300">0{i+1}</span></div><h3 className="card-title mt-7">{title}</h3><p className="card-copy">{copy}</p></article></Reveal>)}</div></div></div></section>}
+import {
+  RefreshCw,
+  HeartHandshake,
+  GraduationCap,
+  ArrowUpRight,
+} from "lucide-react";
+import { Reveal } from "../ui/Reveal";
+import { SectionHeading } from "../ui/SectionHeading";
+const pillars = [
+  {
+    icon: GraduationCap,
+    title: "Siapa Saya",
+    copy: "Mahasiswa PPG calon guru yang sedang mengembangkan kompetensi pedagogik, sosial-emosional, digital, dan profesional melalui proses akademik serta praktik lapangan.",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Prinsip Saya",
+    copy: "Pembelajaran perlu berpusat pada peserta didik, responsif terhadap keragaman, bermakna, dan terus diperbaiki melalui refleksi.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Cara Saya Belajar",
+    copy: "Proses belajar bergerak sebagai siklus: memahami konsep, mencoba dalam praktik, membaca kembali pengalaman, lalu memperbaiki tindakan.",
+  },
+];
+export function About() {
+  return (
+    <section id="about" className="section">
+      <div className="relative max-w-6xl px-5 mx-auto">
+        <SectionHeading
+          eyebrow="01 · Tentang"
+          title="Identitas profesional dibangun dari proses."
+          description="Bukan sekadar kumpulan tugas. Portofolio ini memetakan cara belajar, praktik, refleksi, dan artefak yang membentuk perjalanan menuju profesi guru."
+        />
+        <div className="grid lg:grid-cols-[.8fr_1.2fr] gap-8 items-stretch">
+          <Reveal>
+            <div className="h-full rounded-[2rem] bg-ink p-7 sm:p-9 text-white shadow-premium relative overflow-hidden">
+              <div className="absolute right-[-30%] top-[-15%] h-72 w-72 rounded-full bg-accent blur-3xl opacity-30" />
+              <p className="relative text-xs font-bold uppercase tracking-[.18em] text-emerald-200">
+                Pernyataan Profesional
+              </p>
+              <blockquote className="relative mt-8 text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">
+                “Terus belajar untuk bertumbuh, dan terus bertumbuh untuk
+                menjadi pribadi yang bermanfaat bagi sesama.”
+              </blockquote>
+              <div className="relative flex items-center justify-between pt-6 mt-10 border-t border-white/10">
+                <span className="text-sm text-white/55">PPG · Calon Guru</span>
+                <ArrowUpRight size={18} className="text-emerald-200" />
+              </div>
+            </div>
+          </Reveal>
+          <div className="grid gap-4 md:grid-cols-3">
+            {pillars.map(({ icon: Icon, title, copy }, i) => (
+              <Reveal key={title} delay={i * 0.06}>
+                <article className="h-full card">
+                  <div className="flex items-center justify-between">
+                    <span className="grid h-11 w-11 place-items-center rounded-2xl bg-emerald-50 text-accent">
+                      <Icon size={20} />
+                    </span>
+                    <span className="text-[10px] font-bold tracking-[.16em] text-slate-300">
+                      0{i + 1}
+                    </span>
+                  </div>
+                  <h3 className="card-title mt-7">{title}</h3>
+                  <p className="card-copy">{copy}</p>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
