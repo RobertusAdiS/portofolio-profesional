@@ -124,7 +124,7 @@ export const projects: Project[] = [
     context: 'Kebutuhan peserta didik akan kesejahteraan psikologis (well-being) yang menunjang proses pembelajaran.',
     approach: ['Mengenali emosi diri dan orang lain', 'Mengintegrasikan kesadaran emosi dalam kelas', 'Membangun empati'],
     outcomes: ['Rancangan pembelajaran yang memuat kompetensi sosial emosional.'],
-    skills: ['Social-Emotional Learning', 'Mindfulness', 'Kecerdasan Emosional'],
+    skills: ['Pembelajaran Sosial Emosional', 'Mindfulness', 'Kecerdasan Emosional'],
     evidenceUrl: '#',
     reflection4C: {
       connection: 'Pengalaman berinteraksi dengan orang lain dan mengelola emosi pribadi menjadi dasar awal memahami pentingnya pembelajaran sosial emosional.',
@@ -178,7 +178,7 @@ export const projects: Project[] = [
     context: 'Melatih kemampuan eksekusi kolaboratif dan mengambil peran sebagai pemimpin perubahan.',
     approach: ['Memetakan potensi', 'Melaksanakan inisiatif', 'Mengevaluasi dampak proyek'],
     outcomes: ['Laporan akhir pelaksanaan proyek kepemimpinan dan portofolio kegiatan.'],
-    skills: ['Leadership', 'Project Management', 'Collaboration'],
+    skills: ['Kepemimpinan', 'Manajemen Projek', 'Kolaborasi'],
     evidenceUrl: '#',
     reflection4C: {
       connection: 'Pengalaman berorganisasi dan bekerja dalam tim sebelumnya menjadi modal awal dalam merancang dan memimpin proyek di lingkungan sekolah.',
@@ -196,7 +196,7 @@ export const projects: Project[] = [
     context: 'Guru sebagai pembelajar sepanjang hayat perlu memiliki peta jalan pengembangan kompetensinya.',
     approach: ['Melakukan evaluasi diri', 'Menyusun action plan', 'Merefleksikan perjalanan profesional'],
     outcomes: ['Dokumen rencana Pengembangan Keprofesian Berkelanjutan (PKB).'],
-    skills: ['Self-Evaluation', 'Action Planning', 'Lifelong Learning'],
+    skills: ['Evaluasi Diri', 'Rencana Aksi', 'Pembelajaran Seumur Hidup'],
     evidenceUrl: '#',
     reflection4C: {
       connection: 'Seluruh rangkaian mata kuliah dan pengalaman PPG terhubung menjadi satu narasi pertumbuhan profesional yang perlu dikelola secara berkelanjutan.',

@@ -15,8 +15,8 @@ export const journey: LearningExperience[] = [
     semester: 1,
     title: 'Peserta didik dan Pemahamannya',
     description: 'Mempelajari karakteristik, kebutuhan, dan keragaman peserta didik sebagai acuan pembelajaran.',
-    learningPoints: ['Profiling', 'Karakteristik peserta didik', 'Perkembangan anak'],
-    competency: ['Student-centered', 'Analisis kebutuhan']
+    learningPoints: ['Profil Peserta Didik', 'Karakteristik peserta didik', 'Perkembangan anak'],
+    competency: ['Berpusat pada Peserta Didik', 'Analisis kebutuhan']
   },
   {
     id: 's1-3',
@@ -24,7 +24,7 @@ export const journey: LearningExperience[] = [
     title: 'Pembelajaran Mendalam dan Asesmen Dasar',
     description: 'Merancang pembelajaran yang memberikan makna mendalam beserta instrumen asesmen dasar.',
     learningPoints: ['Pembelajaran mendalam', 'Perancangan instruksional', 'Asesmen dasar'],
-    competency: ['Instructional design', 'Assessment literacy']
+    competency: ['Desain Instruksional', 'Literasi Asesmen']
   },
   {
     id: 's1-4',
@@ -39,8 +39,8 @@ export const journey: LearningExperience[] = [
     semester: 1,
     title: 'Pola Pikir Bertumbuh (Growth Mindset)',
     description: 'Mengembangkan kegigihan dan pola pikir bertumbuh dalam menghadapi tantangan profesional.',
-    learningPoints: ['Growth mindset', 'Resilience', 'Continuous learning'],
-    competency: ['Adaptability', 'Self-development']
+    learningPoints: ['Growth Mindset', 'Resiliensi', 'Pembelajaran berkelanjutan'],
+    competency: ['Adaptabilitas', 'Pengembangan diri']
   },
   {
     id: 's1-6',
@@ -55,39 +55,39 @@ export const journey: LearningExperience[] = [
     semester: 2,
     title: 'Pembelajaran Sosial Emosional',
     description: 'Mempelajari pengintegrasian kompetensi sosial dan emosional di dalam kelas untuk kesejahteraan peserta didik.',
-    learningPoints: ['Self-awareness', 'Social awareness', 'Well-being'],
-    competency: ['PSE', 'Empathetic communication']
+    learningPoints: ['Kesadaran diri', 'Kesadaran sosial', 'Kesejahteraan psikologis (Well-being)'],
+    competency: ['PSE', 'Komunikasi empatis']
   },
   {
     id: 's2-2',
     semester: 2,
     title: 'Pembelajaran Mendalam dan Asesmen Lanjut',
     description: 'Mengembangkan asesmen tingkat lanjut yang mengukur HOTS dan evaluasi hasil belajar yang komprehensif.',
-    learningPoints: ['Asesmen autentik', 'HOTS', 'Evaluasi pembelajaran'],
-    competency: ['Assessment design', 'Analytical evaluation']
+    learningPoints: ['Asesmen otentik', 'HOTS', 'Evaluasi pembelajaran'],
+    competency: ['Desain Asesmen', 'Evaluasi Analitis']
   },
   {
     id: 's2-3',
     semester: 2,
     title: 'Praktik Pengalaman Lapangan (PPL) Mandiri',
     description: 'Mengelola dan melaksanakan praktik pembelajaran di kelas secara mandiri penuh.',
-    learningPoints: ['Independent teaching', 'Problem solving', 'Evaluasi berkelanjutan'],
-    competency: ['Teaching practice', 'Classroom management']
+    learningPoints: ['Praktik mengajar mandiri', 'Pemecahan masalah', 'Evaluasi berkelanjutan'],
+    competency: ['Praktik Mengajar', 'Manajemen Kelas']
   },
   {
     id: 's2-4',
     semester: 2,
     title: 'Projek Kepemimpinan',
     description: 'Berkolaborasi merancang dan mengeksekusi proyek inovatif untuk meningkatkan kualitas ekosistem belajar.',
-    learningPoints: ['Project planning', 'Collaboration', 'Execution'],
-    competency: ['Leadership', 'Project management']
+    learningPoints: ['Perencanaan projek', 'Kolaborasi', 'Eksekusi projek'],
+    competency: ['Kepemimpinan', 'Manajemen Projek']
   },
   {
     id: 's2-5',
     semester: 2,
     title: 'Pengembangan Keprofesian Berkelanjutan',
-    description: 'Menyusun action plan dan peta jalan profesional melalui evaluasi diri.',
-    learningPoints: ['Self-evaluation', 'Action plan', 'Lifelong learning'],
-    competency: ['Professional development', 'Self-reflection']
+    description: 'Menyusun rencana aksi dan peta jalan profesional melalui evaluasi diri.',
+    learningPoints: ['Evaluasi diri', 'Rencana aksi', 'Pembelajaran seumur hidup'],
+    competency: ['Pengembangan Profesional', 'Refleksi Diri']
   }
 ];
