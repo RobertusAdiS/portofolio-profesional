@@ -4,7 +4,7 @@ import { Hero } from "../components/sections/Hero";
 import { About } from "../components/sections/About";
 import { Journey } from "../components/sections/Journey";
 import { Projects } from "../components/sections/Projects";
-import { Skills } from "../components/sections/Skills";
+import { Gallery } from "../components/sections/Gallery";
 import { Evidence } from "../components/sections/Evidence";
 import { Contact } from "../components/sections/Contact";
 export function PortfolioPage() {
@@ -16,7 +16,7 @@ export function PortfolioPage() {
         <About />
         <Journey />
         <Projects />
-        <Skills />
+        <Gallery />
         <Evidence />
         <Contact />
       </main>
