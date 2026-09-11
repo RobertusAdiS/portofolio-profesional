@@ -68,8 +68,8 @@ export const evidence: Evidence[] = [
     description:
       "Rancangan aktivitas atau pedoman integrasi kompetensi sosial-emosional dalam pembelajaran kelas.",
     type: "document",
-    url: "#",
-    status: "placeholder",
+    url: "https://drive.google.com/file/d/1SE1q5DikW_-KEf9G-ebrLskjZZt4BYU8/view?usp=sharing",
+    status: "available",
   },
   {
     id: "ev-s2-2",
@@ -78,7 +78,7 @@ export const evidence: Evidence[] = [
     description:
       "Instrumen evaluasi HOTS dan analisis penilaian tingkat lanjut yang dilakukan terhadap hasil belajar.",
     type: "document",
-    url: "https://drive.google.com/file/d/1iQCMSLKVAARBr9Q-ov-T8CflHQ0d1Pmr/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1iQCMSLKVAARBr9Q-ov-T8CflHQ0d1Pmr/view?usp=drive_link",
     status: "available",
   },
   {
@@ -88,8 +88,8 @@ export const evidence: Evidence[] = [
     description:
       "Video praktik pembelajaran mandiri penuh beserta laporan Penelitian Tindakan Kelas (PTK).",
     type: "video",
-    url: "#",
-    status: "placeholder",
+    url: "https://drive.google.com/file/d/1WjAj8OUqNHA0XgI26XOBIH7v77IaOGPO/view?usp=drive_link",
+    status: "available",
   },
   {
     id: "ev-s2-4",
@@ -98,8 +98,8 @@ export const evidence: Evidence[] = [
     description:
       "Proposal, dokumentasi aksi nyata, dan laporan evaluasi akhir dari projek kepemimpinan.",
     type: "document",
-    url: "#",
-    status: "placeholder",
+    url: "https://drive.google.com/file/d/1ej_IxK-7RO1_1adyMWHWBFoRcc2MQYzW/view?usp=drive_link",
+    status: "available",
   },
   {
     id: "ev-s2-5",
@@ -108,7 +108,7 @@ export const evidence: Evidence[] = [
     description:
       "Dokumen action plan pengembangan diri dan peta jalan profesional pasca PPG.",
     type: "document",
-    url: "#",
-    status: "placeholder",
+    url: "https://drive.google.com/file/d/1NkffNmUMOXqFqvzAaBfmo3RR4RcKe28k/view?usp=drive_link",
+    status: "available",
   },
 ];

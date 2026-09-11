@@ -24,7 +24,7 @@ export function Projects() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-7">
           <SectionHeading
             eyebrow="03 · Mata Kuliah"
-            title="Artefak yang menunjukkan proses."
+            title="Refleksi mata kuliah yang menunjukkan proses."
             description="Kumpulan mata kuliah akademik yang memperlihatkan bagaimana konsep diterjemahkan menjadi rancangan, praktik, dan refleksi."
           />
           <div className="text-right lg:pb-2">

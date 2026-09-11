@@ -159,30 +159,21 @@ export const projects: Project[] = [
     description:
       "Integrasi kompetensi sosial emosional untuk menciptakan lingkungan belajar yang aman dan nyaman.",
     context:
-      "Kebutuhan peserta didik akan kesejahteraan psikologis (well-being) yang menunjang proses pembelajaran.",
-    approach: [
-      "Mengenali emosi diri dan orang lain",
-      "Mengintegrasikan kesadaran emosi dalam kelas",
-      "Membangun empati",
-    ],
-    outcomes: [
-      "Rancangan pembelajaran yang memuat kompetensi sosial emosional.",
-    ],
-    skills: [
-      "Pembelajaran Sosial Emosional",
-      "Mindfulness",
-      "Kecerdasan Emosional",
-    ],
-    evidenceUrl: "#",
+      "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "https://drive.google.com/file/d/1SE1q5DikW_-KEf9G-ebrLskjZZt4BYU8/view?usp=sharing",
     reflection4C: {
       connection:
-        "Pengalaman berinteraksi dengan orang lain dan mengelola emosi pribadi menjadi dasar awal memahami pentingnya pembelajaran sosial emosional.",
+        "Sebelumnya, saya lebih banyak berfokus pada pencapaian kognitif dan akademik peserta didik. Setelah mengeksplorasi materi CASEL, saya menyadari bahwa 5 kompetensi inti CASEL (Kesadaran Diri, Manajemen Diri, Kesadaran Sosial, Keterampilan Berelasi, dan Pengambilan Keputusan Bertanggung Jawab) adalah fondasi mutlak yang harus dibangun agar siswa siap belajar dan menyerap materi dengan baik.",
       challenge:
-        "Mengintegrasikan kompetensi sosial emosional secara natural ke dalam pembelajaran akademik tanpa terasa dipaksakan menjadi tantangan tersendiri.",
+        "Tantangan terbesar yang saya hadapi adalah saat menganalisis kasus calon guru yang sedang PPL menghadapi kelas yang gaduh. Menerjemahkan teori CASEL ke dalam tindakan nyata untuk mengatasi konflik antarsiswa atau menangani siswa yang tantrum ternyata membutuhkan pembiasaan, regulasi diri dari guru, dan kepekaan situasi yang tinggi.",
       concept:
-        "Framework CASEL, teknik STOP (Stop-Take a breath-Observe-Proceed), self-awareness, social awareness, dan responsible decision-making.",
+        "Konsep yang paling mencerahkan adalah rincian dari Komponen Pembelajaran Sosial Emosional berdasarkan Kerangka CASEL. Konsep ini memberikan struktur yang jelas bahwa keterampilan mengelola emosi dan berempati bukanlah sekadar 'bakat', melainkan keterampilan yang bisa diajarkan, dilatih, dan dievaluasi secara sistematis di sekolah.",
       change:
-        "Saya lebih memperhatikan kondisi emosional peserta didik sebelum memulai pembelajaran dan menyisipkan momen refleksi emosional dalam setiap sesi mengajar.",
+        "Ke depannya, saya akan secara eksplisit melatih 5 kompetensi CASEL di kelas. Langkah pertama yang akan saya lakukan adalah menerapkan rutinitas check-in perasaan di awal pembelajaran (untuk melatih kesadaran diri) dan memberikan ruang refleksi di akhir pembelajaran agar peserta didik terbiasa mengenali kondisi emosinya.",
     },
   },
   {
@@ -193,24 +184,21 @@ export const projects: Project[] = [
     description:
       "Lanjutan dari prinsip pembelajaran mendalam dengan fokus pada asesmen tingkat lanjut dan HOTS.",
     context:
-      "Merancang evaluasi yang mengukur kemampuan analisis dan pemecahan masalah (HOTS).",
-    approach: [
-      "Menyusun asesmen HOTS",
-      "Melakukan evaluasi autentik",
-      "Menganalisis hasil belajar peserta didik",
-    ],
-    outcomes: ["Instrumen penilaian autentik dan modul ajar tingkat lanjut."],
-    skills: ["Asesmen Lanjut", "HOTS", "Evaluasi Autentik"],
-    evidenceUrl: "#",
+      "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "https://drive.google.com/file/d/1iQCMSLKVAARBr9Q-ov-T8CflHQ0d1Pmr/view?usp=drive_link",
     reflection4C: {
       connection:
-        "Pengalaman merancang asesmen dasar di semester sebelumnya menjadi pondasi untuk memahami asesmen tingkat lanjut yang lebih kompleks.",
+        "Sebelumnya, saya merancang asesmen hanya sebagai alat ukur ketercapaian nilai akhir siswa. Setelah mempelajari Materi tentang Asesmen Awal dan Pemetaan Kemampuan Murid dengan Kerangka DUP, saya menyadari pentingnya asesmen diagnostik di awal untuk memetakan keberagaman kebutuhan belajar peserta didik agar pembelajaran dapat dirancang lebih inklusif.",
       challenge:
-        "Menyusun soal atau tugas yang benar-benar mengukur kemampuan berpikir tingkat tinggi (HOTS) dan bukan sekadar mengulang informasi.",
+        "Tantangan terbesar yang saya hadapi adalah ketika mengintegrasikan pendekatan Teaching at the Right Level (TaRL) dan Culturally Responsive Teaching (CRT) ke dalam konteks kejuruan (SMK) yang dinamis, serta menyusun rubrik asesmen autentik yang presisi untuk pembelajaran berbasis proyek (PBL/TEFA).",
       concept:
-        "Taksonomi Bloom revisi, asesmen autentik, rubrik penilaian, serta analisis butir soal untuk memastikan validitas dan reliabilitas instrumen.",
+        "Konsep yang paling mendasar adalah merancang Perencanaan Pembelajaran Mendalam di SMK dengan Model Kontekstual dan penyusunan perangkat asesmen sebagai alat pembelajaran (assessment as learning), bukan sekadar penilai hasil akhir.",
       change:
-        "Saya kini merancang asesmen sebagai bagian integral dari proses pembelajaran, bukan sekadar alat mengukur di akhir, sehingga peserta didik bisa belajar dari proses evaluasi itu sendiri.",
+        "Ke depannya, saya akan secara rutin melakukan asesmen awal sebelum memulai bab baru, menerapkan diferensiasi pembelajaran sesuai tingkat kemampuan peserta didik (TaRL), serta memanfaatkan asesmen formatif secara berkelanjutan untuk memberikan umpan balik konstruktif.",
     },
   },
   {
@@ -221,26 +209,21 @@ export const projects: Project[] = [
     description:
       "Praktik mengajar mandiri yang memberikan tanggung jawab penuh dalam merencanakan dan mengelola kelas.",
     context:
-      "Mengaplikasikan seluruh teori dalam ruang kelas nyata dengan tingkat kemandirian penuh.",
-    approach: [
-      "Praktik mengajar mandiri",
-      "Menyelesaikan permasalahan di kelas",
-      "Melakukan perbaikan berkelanjutan",
-    ],
-    outcomes: [
-      "Video praktik pembelajaran mandiri dan laporan evaluasi tindakan kelas.",
-    ],
-    skills: ["Manajemen Kelas", "Problem Solving", "Kemandirian Mengajar"],
-    evidenceUrl: "#",
+      "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "https://drive.google.com/file/d/1WjAj8OUqNHA0XgI26XOBIH7v77IaOGPO/view?usp=drive_link",
     reflection4C: {
       connection:
-        "Seluruh pengalaman dari PPL Terbimbing dan mata kuliah semester sebelumnya menjadi bekal menghadapi praktik mengajar secara mandiri.",
+        "Pengalaman yang paling mengesankan terjadi pada Siklus 4 dalam mata pelajaran Koding dan Kecerdasan Artifisial (KKA). Pembelajaran dirancang menggunakan model Project-Based Learning (PjBL) dengan fokus materi pembuatan video berbasis AI. Pembelajaran ini memfasilitasi peserta didik untuk mengintegrasikan konsep kecerdasan artifisial dengan pemikiran kreatif dalam menghasilkan produk berupa media audio-visual.",
       challenge:
-        "Mengelola kelas secara mandiri tanpa pendampingan intensif, menangani peserta didik berkebutuhan khusus, dan mengambil keputusan cepat saat situasi tak terduga.",
+        "Selama pelaksanaan PPL Mandiri di SMA N 3 Yogyakarta, terdapat beberapa tantangan utama: Alokasi waktu yang terbatas untuk menyelesaikan seluruh alur proyek dari perancangan hingga rendering. Kemampuan dasar peserta didik dalam bidang editing dan videografi yang masih sangat kurang, sehingga membutuhkan bimbingan teknis yang cukup intensif. Keterbatasan sarana pendukung, seperti performa beberapa perangkat komputer di laboratorium yang tergolong lambat saat menjalankan perangkat lunak pemrosesan video dan AI.",
       concept:
-        "Penelitian Tindakan Kelas (PTK), siklus refleksi-aksi-perbaikan, dan pengelolaan kelas yang responsif terhadap dinamika belajar.",
+        "Konsep utama yang dipelajari adalah penerapan PjBL yang responsif terhadap kondisi laboratorium komputer dan keragaman kemampuan teknis peserta didik. Pembelajaran KKA berbasis AI memerlukan manajemen waktu yang fleksibel, pembagian peran kelompok yang seimbang (memasangkan siswa yang mahir dengan yang kurang mahir), serta pemanfaatan perkakas AI berbasis awan (cloud-based) yang lebih ringan untuk mengatasi keterbatasan spesifikasi perangkat keras.",
       change:
-        "Saya tumbuh menjadi lebih percaya diri dan mandiri dalam mengajar, serta mampu mengevaluasi dan memperbaiki praktik sendiri berdasarkan data dan refleksi.",
+        "Terjadi perubahan pola pikir (mindset) dalam merancang serta mengelola pembelajaran berbasis teknologi. Ke depannya, perancangan modul ajar PjBL akan memperhitungkan secara matang skenario pendampingan peer-tutoring (tutor sebaya), alokasi waktu fleksibel untuk tahapan teknis, serta penyediaan opsi aplikasi alternatif yang lebih ramah spesifikasi perangkat keras.",
     },
   },
   {
@@ -251,26 +234,21 @@ export const projects: Project[] = [
     description:
       "Perencanaan, pelaksanaan, dan evaluasi proyek inovatif berbasis sekolah atau komunitas.",
     context:
-      "Melatih kemampuan eksekusi kolaboratif dan mengambil peran sebagai pemimpin perubahan.",
-    approach: [
-      "Memetakan potensi",
-      "Melaksanakan inisiatif",
-      "Mengevaluasi dampak proyek",
-    ],
-    outcomes: [
-      "Laporan akhir pelaksanaan proyek kepemimpinan dan portofolio kegiatan.",
-    ],
-    skills: ["Kepemimpinan", "Manajemen Projek", "Kolaborasi"],
-    evidenceUrl: "#",
+      "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "https://drive.google.com/file/d/1ej_IxK-7RO1_1adyMWHWBFoRcc2MQYzW/view?usp=drive_link",
     reflection4C: {
       connection:
-        "Pengalaman berorganisasi dan bekerja dalam tim sebelumnya menjadi modal awal dalam merancang dan memimpin proyek di lingkungan sekolah.",
+        "Pengalaman belajar pada mata kuliah ini sangat relevan dengan peran guru sebagai inovator dan pemimpin perubahan. Projek yang diinisiasi adalah Pengembangan Aplikasi Absensi Siswa Berbasis QR Code untuk SMAN 11 Yogyakarta. Kegiatan ini menghubungkan teori kepemimpinan dengan praktik nyata dalam mengidentifikasi masalah administrasi sekolah dan merancang solusi digital secara kolaboratif.",
       challenge:
-        "Mengoordinasikan berbagai pemangku kepentingan, mengelola waktu dan sumber daya terbatas, serta memastikan proyek berdampak nyata.",
+        "Tantangan paling masif terjadi pada fase eksekusi atau pengembangan aplikasi. Tim harus membangun dan memastikan stabilitas sistem yang akan diakses oleh skala besar, yakni 900 pengguna. Hal ini menjadi sangat menantang karena dibatasi oleh ketersediaan dana yang sangat minim dan waktu pengerjaan efektif yang sangat singkat, yaitu hanya 1,5 bulan.",
       concept:
-        "Project management, servant leadership, kolaborasi lintas pihak, serta evaluasi program berbasis bukti.",
+        "Konsep utama yang dipahami adalah pentingnya manajemen proyek, alokasi sumber daya yang efisien, dan kepemimpinan adaptif. Dalam kondisi serba terbatas, penyelesaian projek menuntut penentuan prioritas fitur (Minimum Viable Product), kolaborasi teknis yang kuat, serta kemampuan mengambil keputusan taktis agar aplikasi tetap berfungsi maksimal sesuai tenggat waktu.",
       change:
-        "Saya memahami bahwa kepemimpinan bukan soal jabatan, melainkan tentang melayani, menginspirasi, dan memfasilitasi perubahan positif bersama komunitas.",
+        "Pengalaman ini mengubah perspektif saya mengenai manajemen proyek IT di lingkungan pendidikan. Ke depannya, saya akan lebih komprehensif dalam menyusun studi kelayakan, merancang linimasa yang lebih realistis dengan buffer waktu, serta lebih proaktif menjajaki kemitraan atau pendanaan eksternal untuk mendukung inovasi sekolah.",
     },
   },
   {
@@ -281,24 +259,21 @@ export const projects: Project[] = [
     description:
       "Mata kuliah elektif yang berfokus pada rencana tindak lanjut dan evaluasi diri profesional.",
     context:
-      "Guru sebagai pembelajar sepanjang hayat perlu memiliki peta jalan pengembangan kompetensinya.",
-    approach: [
-      "Melakukan evaluasi diri",
-      "Menyusun action plan",
-      "Merefleksikan perjalanan profesional",
-    ],
-    outcomes: ["Dokumen rencana Pengembangan Keprofesian Berkelanjutan (PKB)."],
-    skills: ["Evaluasi Diri", "Rencana Aksi", "Pembelajaran Seumur Hidup"],
-    evidenceUrl: "#",
+      "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "https://drive.google.com/file/d/1NkffNmUMOXqFqvzAaBfmo3RR4RcKe28k/view?usp=drive_link",
     reflection4C: {
       connection:
-        "Seluruh rangkaian mata kuliah dan pengalaman PPG terhubung menjadi satu narasi pertumbuhan profesional yang perlu dikelola secara berkelanjutan.",
+        "Materi perkuliahan PKB sangat relevan dengan peran sebagai calon guru profesional. Di LMS, topik mencakup dasar Konsep PKG dan PKB, Penilaian Kinerja Guru, penyusunan Publikasi Ilmiah, Karya Tulis Ilmiah Penelitian, Karya Inovatif, hingga isu Plagiarisme. Pengalaman yang paling berguna dan menarik adalah saat mempelajari teknik penulisan karya tulis ilmiah dan pembuatan karya inovatif, karena memberikan panduan konkret untuk meningkatkan kualitas pembelajaran di kelas secara berkelanjutan.",
       challenge:
-        "Menyusun rencana pengembangan diri yang realistis, terukur, dan benar-benar akan dijalankan setelah PPG selesai.",
+        "Tantangan paling menonjol yang dihadapi adalah merancang Penelitian Tindakan Kelas (PTK) dan karya inovatif yang benar-benar sesuai dengan masalah riil di kelas. Hal ini terjadi karena selama ini penulisan karya ilmiah sering kali hanya berfokus pada pemenuhan teori, bukan pada pemecahan masalah praktis pembelajaran siswa di lapangan.",
       concept:
-        "Pengembangan Keprofesian Berkelanjutan (PKB), reflective practice, action plan, dan identitas profesional guru.",
+        "Konsep utama yang dipahami adalah bahwa PKB bukan sekadar pemenuhan angka kredit untuk jabatan guru, melainkan proses belajar sepanjang hayat (lifelong learning). PKB mencakup tiga komponen utama: pengembangan diri, publikasi ilmiah, dan karya inovatif yang berorientasi pada peningkatan mutu pembelajaran peserta didik.",
       change:
-        "Saya memiliki kesadaran yang lebih kuat bahwa menjadi guru adalah perjalanan belajar seumur hidup, dan pengembangan diri harus direncanakan secara sistematis.",
+        "Setelah mempelajari mata kuliah ini, terjadi perubahan pola pikir (mindset). Ke depannya, saya akan lebih responsif terhadap permasalahan di kelas dengan secara rutin melakukan evaluasi diri, menyusun PTK, serta menghasilkan karya inovatif berbasis kebutuhan siswa.",
     },
   },
 ];
