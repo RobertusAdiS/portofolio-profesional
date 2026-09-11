@@ -10,7 +10,7 @@ export function Footer() {
           </p>
         </div>
         <p className="text-sm text-muted">
-          © {new Date().getFullYear()} · Robertis Ado Setyawan
+          © {new Date().getFullYear()} · Robertus Adi Setyawan
         </p>
       </div>
     </footer>
