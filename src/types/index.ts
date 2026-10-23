@@ -24,6 +24,7 @@ export interface Project {
   hideOverview?: boolean;
   evidenceUrl?: string;
   reflection4C?: Reflection4C;
+  reflectionSections?: { title: string; content: string }[];
 }
 export interface LearningExperience {
   id: string;

@@ -276,4 +276,35 @@ export const projects: Project[] = [
         "Setelah mempelajari mata kuliah ini, terjadi perubahan pola pikir (mindset). Ke depannya, saya akan lebih responsif terhadap permasalahan di kelas dengan secara rutin melakukan evaluasi diri, menyusun PTK, serta menghasilkan karya inovatif berbasis kebutuhan siswa.",
     },
   },
+  {
+    id: "lk-3",
+    slug: "refleksi-pengalaman-belajar-ppg",
+    title: "LK 3: Refleksi Pengalaman Belajar Selama Mengikuti PPG",
+    category: "Refleksi",
+    description:
+      "Refleksi tentang pandangan terhadap pendidikan Indonesia, komitmen menjadi guru profesional, dan rencana tindak lanjut setelah PPG.",
+    context: "",
+    approach: [],
+    outcomes: [],
+    skills: [],
+    hideOverview: true,
+    evidenceUrl: "#",
+    reflectionSections: [
+      {
+        title: "Pandangan Mengenai Pendidikan di Indonesia ke Depan",
+        content:
+          "Setelah merampungkan seluruh rangkaian program Pendidikan Profesi Guru (PPG), pandangan saya mengenai pendidikan di Indonesia mengalami penguatan yang fundamental. Pendidikan di Indonesia seharusnya tidak hanya berorientasi pada pencapaian akademik atau kognitif semata, melainkan harus bertransformasi menjadi ruang yang memanusiakan manusia (humanisasi).\n\nDengan mengintegrasikan prinsip Cura Personalis (perhatian utuh terhadap peserta didik) dan pendekatan Pembelajaran Mendalam (Deep Learning), pendidikan di Indonesia harus berpusat pada peserta didik (student-centered), inklusif, serta mampu mengakomodasi keragaman karakteristik dan latar belakang sosial emosional siswa. Guru tidak lagi berperan sebagai satu-satunya sumber informasi, melainkan sebagai fasilitator yang menuntun tumbuh kembang potensi unik setiap anak agar mereka tidak hanya cerdas secara intelektual, tetapi juga memiliki ketangguhan mental, integritas moral, dan kepekaan sosial yang tajam untuk menjawab tantangan zaman.",
+      },
+      {
+        title: "Upaya dan Langkah Konkret Menjadi Guru Profesional",
+        content:
+          "Untuk menjelma menjadi seorang pendidik yang benar-benar profesional, saya berkomitmen untuk melakukan langkah-langkah nyata berikut:\n\n• Pengembangan Kompetensi Berkelanjutan: Menjadikan diri sebagai pembelajar seumur hidup (lifelong learner) yang senantiasa memperbarui penguasaan konten bidang studi (Informatika), pedagogi mutakhir, serta literasi teknologi (TPACK).\n\n• Penerapan Pembelajaran yang Bermakna dan Empatik: Mengintegrasikan Kompetensi Sosial Emosional (PSE) dalam setiap rancangan pembelajaran guna menciptakan iklim kelas yang aman, nyaman, dan suportif bagi seluruh peserta didik.\n\n• Refleksi Diri yang Konsisten: Membudayakan siklus refleksi (planning, action, reflection) secara berkala terhadap setiap praktik pembelajaran di kelas guna mengevaluasi efektivitas strategi yang digunakan dan melakukan perbaikan secara berkelanjutan.",
+      },
+      {
+        title: "Rencana Tindak Lanjut (RTL) Memulai Karier Sebagai Guru",
+        content:
+          "Ketika resmi memulai langkah awal sebagai guru profesional di satuan pendidikan, saya akan memfokuskan tindakan nyata pada tiga hal penting berikut:\n\n1. Membangun Lingkungan Belajar yang Aman dan Berpusat pada Siswa (Inklusif & PSE): Pada bulan-bulan awal penugasan, saya akan memetakan profil belajar peserta didik secara mendalam—baik dari aspek kognitif maupun sosial-emosional—serta merancang asesmen diagnostik dan suasana kelas yang menumbuhkan growth mindset serta iklim saling menghargai.\n\n2. Mengimplementasikan Pembelajaran Berbasis Inovasi Teknologi dan Projek: Menerapkan rancangan modul ajar berbasis Deep Learning dan TPACK pada mata pelajaran Informatika, dengan memanfaatkan media interaktif dan pendekatan praktis yang relevan dengan dunia nyata agar siswa terbiasa berpikir kritis dan kreatif.\n\n3. Menginisiasi Kolaborasi dan Komunitas Belajar (Professional Learning Community): Aktif berkolaborasi dengan rekan sejawat, kepala sekolah, serta orang tua murid dalam merancang program pengembangan sekolah, serta berbagi praktik baik (best practices) pembelajaran inovatif untuk memperkuat ekosistem pendidikan di lingkungan satuan pendidikan.",
+      },
+    ],
+  },
 ];

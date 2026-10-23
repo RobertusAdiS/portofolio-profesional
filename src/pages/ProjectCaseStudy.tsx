@@ -182,6 +182,33 @@ export function ProjectCaseStudy() {
               </Block>
             )}
 
+            {p.reflectionSections && p.reflectionSections.length > 0 && (
+              <Block title="Refleksi Pengalaman Belajar Selama Mengikuti PPG">
+                <div className="grid gap-6">
+                  {p.reflectionSections.map((section, index) => (
+                    <section
+                      key={section.title}
+                      className="p-5 bg-white border rounded-2xl border-slate-200 sm:p-6 shadow-soft"
+                    >
+                      <span className="text-[10px] font-bold tracking-[.16em] text-slate-400">
+                        0{index + 1}
+                      </span>
+                      <h3 className="mt-1 text-lg font-bold text-accent">
+                        {section.title}
+                      </h3>
+                      <div className="mt-3 space-y-4 text-base leading-7 text-ink">
+                        {section.content.split("\n\n").map((paragraph) => (
+                          <p key={paragraph} className="whitespace-pre-line">
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </section>
+                  ))}
+                </div>
+              </Block>
+            )}
+
             <Block title="Artifak">
               {p.evidenceUrl && p.evidenceUrl !== "#" ? (
                 <a
