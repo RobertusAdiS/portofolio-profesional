@@ -10,7 +10,7 @@ export function Evidence() {
     <section id="artifacts" className="bg-white section">
       <div className="max-w-6xl px-5 mx-auto">
         <SectionHeading
-          eyebrow="05 · Artifak"
+          eyebrow="06 · Artifak"
           title="Bukti belajar yang dapat diverifikasi."
           description="Koleksi artifak menggunakan placeholder sampai file dan URL asli tersedia."
         />

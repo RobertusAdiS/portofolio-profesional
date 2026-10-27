@@ -29,7 +29,7 @@ export function Gallery() {
 
       <div className="relative max-w-6xl px-5 mx-auto">
         <SectionHeading
-          eyebrow="04 · Galeri Dokumentasi"
+          eyebrow="05 · Galeri Dokumentasi"
           title="Dokumentasi Kegiatan & Praktik"
           description="Rekaman visual pengalaman nyata, praktik mengajar di kelas, bimbingan reflektif, serta pengimbasan inovasi pembelajaran."
         />

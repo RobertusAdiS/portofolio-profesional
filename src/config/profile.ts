@@ -58,7 +58,7 @@ export const navItems = [
   ["Tentang", "about"],
   ["Perjalanan", "journey"],
   ["Matkul", "courses"],
+  ["Karya Inovasi", "innovation"],
   ["Galeri", "gallery"],
   ["Artifak", "artifacts"],
 ] as const;
-

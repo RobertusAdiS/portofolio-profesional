@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XI - Perencanaan Pembelajaran Mendalam IoT</title>
+    <style>
+      :root {
+        --ink: #102033;
+        --muted: #667487;
+        --paper: #f4f7f8;
+        --line: #dbe3e8;
+        --accent: #0f766e;
+        --accent-soft: #e8f5f3;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: linear-gradient(180deg, #f7fafb 0%, #eef3f6 100%);
+        color: var(--ink);
+      }
+      .page {
+        max-width: 1100px;
+        margin: 48px auto;
+        padding: 24px 24px 60px;
+      }
+      .card {
+        background: rgba(255,255,255,0.96);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 18px 50px rgba(16,32,51,0.08);
+        overflow: hidden;
+      }
+      .header {
+        background: linear-gradient(135deg, #102033 0%, #173b4d 100%);
+        color: white;
+        padding: 28px 30px;
+      }
+      .header small {
+        display: inline-block;
+        background: rgba(255,255,255,0.14);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 999px;
+        padding: 6px 10px;
+        letter-spacing: .12em;
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 16px 0 8px;
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        line-height: 1.15;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        font-size: 0.96rem;
+        color: rgba(255,255,255,0.8);
+      }
+      .content {
+        padding: 28px 30px 30px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 24px;
+      }
+      .section {
+        margin-top: 22px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+      }
+      .section h2 {
+        margin: 0 0 12px;
+        font-size: 1.1rem;
+        letter-spacing: .02em;
+      }
+      ul, ol {
+        margin: 10px 0 0 20px;
+        padding: 0;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+      li + li { margin-top: 8px; }
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        padding: 6px 10px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .box {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 18px;
+      }
+      .box h3 {
+        margin: 0 0 10px;
+        font-size: 1rem;
+      }
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .tag {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 7px 10px;
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--ink);
+      }
+      @media (max-width: 860px) {
+        .grid { grid-template-columns: 1fr; }
+        .page { padding: 18px 18px 40px; }
+        .content { padding: 20px 18px 22px; }
+        .header { padding: 22px 18px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <article class="card">
+        <header class="header">
+          <small>XI · Informatika</small>
+          <h1>Perencanaan Pembelajaran Mendalam IoT</h1>
+          <div class="meta">
+            <span>Guru: Robertus Adi Setyawan</span>
+            <span>SMA N 11 Yogyakarta</span>
+            <span>Kelas XI</span>
+          </div>
+        </header>
+
+        <div class="content">
+          <div class="grid">
+            <div>
+              <div class="section">
+                <span class="pill">Identitas</span>
+                <ul>
+                  <li><strong>Mata Pelajaran:</strong> Informatika</li>
+                  <li><strong>Elemen:</strong> Algoritma dan Pemrograman</li>
+                  <li><strong>Sub-elemen:</strong> Internet of Things (IoT)</li>
+                  <li><strong>Model:</strong> Project Based Learning (PjBL)</li>
+                  <li><strong>Media:</strong> Tinkercad Circuits, simulasi berbasis web</li>
+                </ul>
+              </div>
+
+              <div class="section">
+                <h2>Tujuan Pembelajaran</h2>
+                <ol>
+                  <li>Peserta didik mampu memahami konsep dasar Internet of Things dan hubungannya dengan kehidupan nyata.</li>
+                  <li>Peserta didik mampu merancang rangkaian dan program sederhana menggunakan Arduino pada platform simulasi Tinkercad.</li>
+                  <li>Peserta didik mampu menganalisis masalah, merancang solusi, dan menguji proyek IoT secara virtual.</li>
+                  <li>Peserta didik mampu menampilkan hasil karya dan menjelaskan fungsi komponen serta cara kerja sistem secara logis.</li>
+                </ol>
+              </div>
+            </div>
+
+            <aside class="box">
+              <h3>Profil Pembelajaran</h3>
+              <p style="margin:0; color: var(--muted); line-height: 1.8;">
+                Pembelajaran berorientasi pada penguatan literasi digital, kemampuan berpikir komputasional, serta kerja kolaboratif peserta didik dalam menyelesaikan tantangan nyata berbasis teknologi.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Berpikir kritis</span>
+                <span class="tag">Kolaborasi</span>
+                <span class="tag">Eksperimen</span>
+                <span class="tag">Simulasi</span>
+              </div>
+            </aside>
+          </div>
+
+          <div class="section">
+            <h2>Langkah Pembelajaran</h2>
+            <ol>
+              <li><strong>Pendahuluan:</strong> Guru membuka pembelajaran dengan konteks kehidupan nyata tentang perangkat IoT dan mendorong pertanyaan pemantik.</li>
+              <li><strong>Orientasi masalah:</strong> Siswa diberikan tantangan untuk membuat sistem sederhana seperti lampu otomatis, sensor tanah, atau alarm mobil.</li>
+              <li><strong>Scaffolding dengan Tinkercad:</strong> Guru memodelkan tiga contoh proyek: LED, sensor kelembapan &amp; LCD, serta sensor jarak alarm mobil.</li>
+              <li><strong>Proyek kelompok:</strong> Peserta didik merencanakan rangkaian, menulis program, dan menguji simulasi sesuai dengan alur PjBL.</li>
+              <li><strong>Presentasi &amp; refleksi:</strong> Siswa mempresentasikan hasil karya, mengevaluasi kelebihan dan kekurangan, serta merefleksikan proses pembelajaran.</li>
+            </ol>
+          </div>
+
+          <div class="section">
+            <h2>Penilaian</h2>
+            <ul>
+              <li>Pengetahuan: pemahaman konsep Arduino, sensor, dan sistem IoT.</li>
+              <li>Keterampilan: kemampuan merancang rangkaian dan menulis program di Tinkercad.</li>
+              <li>Produk: hasil proyek kelompok dalam bentuk simulasi yang berfungsi sesuai perencanaan.</li>
+              <li>Sikap: kerja sama, tanggung jawab, dan kemampuan berkomunikasi saat presentasi.</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>Evaluasi Keberhasilan</h2>
+            <ul>
+              <li>Peserta didik mampu mengikuti proses pembelajaran tanpa kebutuhan alat fisik yang lengkap.</li>
+              <li>Penggunaan simulasi Tinkercad meningkatkan pemahaman konsep dan motivasi belajar siswa.</li>
+              <li>Hasil praktik dapat menjadi jembatan menuju proyek implementasi nyata di sekolah dengan fasilitas yang lebih memadai.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
